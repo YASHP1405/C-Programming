@@ -24,3 +24,34 @@ git pull
 
 See commit history
 git log
+
+
+For cloning a git repo to do work onn local machine the commmand is :
+
+
+5.
+git clone "The file name"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

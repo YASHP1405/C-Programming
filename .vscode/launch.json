@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Yash/OneDrive/Desktop/GIT/C-Programming",
-      "program": "c:/Users/Yash/OneDrive/Desktop/GIT/C-Programming/build/Debug/outDebug",
+      "cwd": "c:/Users/Yash/OneDrive/Desktop/GIT/C-Programming/Functions,Array,Pointers",
+      "program": "c:/Users/Yash/OneDrive/Desktop/GIT/C-Programming/Functions,Array,Pointers/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
