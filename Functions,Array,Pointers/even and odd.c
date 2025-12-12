@@ -1,16 +1,19 @@
 /* 6. Count even and odd numbers in an array */
+
 #include<stdio.h>
 int main(){
-    int a[10],i,even=0,odd=0;
-    printf("Enter 10 integers:\n");
-    for(i=0;i<10;i++){
+    int a[5],i,count = 0, count2 = 0;
+    for(i = 0; i<=5; i++){
+        printf("Enter 5 number :\n");
         scanf("%d",&a[i]);
-        if(a[i]%2==0)
-            even++;
-        else
-            odd++;
-}
-    printf("Even numbers: %d\n",even);
-    printf("Odd numbers: %d\n",odd);
-    return 0;
+        if(a[i]%2==0){
+            count++;
+            printf("Even numbers: %d\n",count);
+        }
+        else{
+            count2++;
+            printf("Odd numbers: %d\n",count2);
+    }
+
+} return 0;
 }
