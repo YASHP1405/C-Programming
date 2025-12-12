@@ -1,4 +1,4 @@
-/*Write a program to display elements of array */
+/*Print all elements of an array */
 #include<stdio.h>
 int main(){
     int arr[5] = {1,2,3,4,5};
