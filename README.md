@@ -87,53 +87,30 @@ Program on Switch-Case structure
 🔹 Basic Level
 
 1. Print numbers 1 to N
-Input: N
-Output: numbers 1 2 ... N
 
 2. Sum of first N natural numbers
-Input: N
-Output: sum (e.g., N=5 → 15)
-
 3. Factorial of N
-Input: N (assume N≥0, small)
-Output: N!
 Hint: Use for/while loops and store the result in a long long variable.
 
 4. Print even numbers between A and B
-Input: A, B
-Output: list of evens between
 
 5. Count digits in an integer
-Input: n (positive)
-Output: count of digits
 Hint: use while (n>0) { n/=10; count++; }.
 
 6. Reverse a number
-Input: integer n
-Output: reversed integer (e.g., 123 → 321)
 Hint: build reversed using rev = rev*10 + n%10.
 
 7. Print the multiplication table of a number
-Input: x
-Output: 1×x … 10×x each on new line
 
 🔹 Intermediate Level
 
 8. Check prime (trial division)
-Input: n
-Output: prime or not prime
 
 9. Sum of digits of a number
-Input: n
-Output: sum of digits
 
 10. Print the Fibonacci sequence up to N terms
-Input: N
-Output: first N Fibonacci numbers
 
 11. Check palindrome (number or string)
-Input: a number (or string)
-Output: palindrome or not a palindrome
 Hint: reverse and compare.
 
 12. Find LCM of Two Numbers
@@ -143,110 +120,6 @@ Hint: reverse and compare.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 Triangle Pattern 
 
 ![alt text](<WhatsApp Image 2025-11-20 at 19.41.55_42f1a311.jpg>)
-
-Questions on Functions IN C :-
-
-✅ Function Programs in C (Easy → Moderate → Advanced)
-🟢 EASY LEVEL (1–8) 
-1. Write a function to find the sum of two numbers.
-- Use parameters and return the result.
-> Test case:
-1. 10, 20 --> 30     
-2. 5, 6   --> 11     
-
-2. Write a function to find the square of a number.
-- Return type: int
-> Test case:
-1. 5 --> 25     
-2. 7   -->49
-
-3. Write a function to check whether a number is even or odd.
-- Return: 1 for even, 0 for odd.
-> Test case:
-1. 5  --> 0    
-2. 6  -->1
-
-4. Write a function to print "Hello" 5 times.
-- No return value, no parameters, using loops
-5. Write a function to find the largest of two numbers.
-> Test case:
-1. 5, 78  --> 78
-2. 6, 3  -->6
-
-6. Write a function to calculate the area of a circle.
-> Test case:
-1. 5  --> 78.54
-2. 3  --> 28.27
-
-7. Write a function to find the factorial of a number (non-recursive).
-> Test case:
-1. 5  -->120
-2. 7  --> 5040
-
-8. Write a function to convert Celsius to Fahrenheit.
-> Test case:
-1. 0  --> 32
-2. 37  --> 98.60
-
-9. Write a function to find the greatest of 3 numbers.
-10. Write a function to check if a number is prime.
-11. Write a function to reverse a number (e.g., 123 → 321).
-12. Write a function to count digits in a number.
-13. Write a function to print the Fibonacci series up to N terms.
-14. Write a function to check whether a string is a palindrome.
-15. Write a recursive function to find the factorial.
-16. Write a function to find the sum of the elements of an array
-17. Write a function to swap two numbers using pointers.
-18. Write a function to sort an array using Bubble Sort.
-19. Write a recursive function to find the GCD (HCF) of two numbers. (Use Euclidean Algorithm)
-20. Write a structure-based function to input and display employee details.
-
-
-
-
-
-Questions on ARRAY IN C :- 
-✅ 📘 Array Programs in C (Easy → Advanced)
-> 🟩 EASY LEVEL (1–12)
-1. Print all elements of an array
-2. Find the sum of all array elements
-3. Find the average of the array elements
-4. Find the maximum element
-5. Find the minimum element
-6. Count even and odd numbers in an array
-7. Count positive and negative numbers
-8. Reverse an array
-9. Copy one array to another
-10. Print the array in reverse without modifying
-11. Search for an element (Linear Search)
-12. Find the number of occurrences of a given number
-
-
-
-
-
-
-
-
-
-
-
-
-
-
