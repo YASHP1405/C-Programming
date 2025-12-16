@@ -1,47 +1,36 @@
 /*13. Find the second largest number in the array  */
 /* 13. Find the second largest number in the array */
-#include <stdio.h>
-
+#include<stdio.h>
 int main()
 {
-    int arr[10], i;
-    int largest, second_largest;
-
-    // Input
-    for (i = 0; i < 10; i++)
-    {
-        printf("Enter number %d: ", i + 1);
-        scanf("%d", &arr[i]);
-    }
-
-    // Initialize
-    if (arr[0] > arr[1])
-    {
-        largest = arr[0];
-        second_largest = arr[1];
-    }
-    else
-    {
-        largest = arr[1];
-        second_largest = arr[0];
-    }
-
-    // Find second largest
-    for (i = 2; i < 10; i++)
-    {
-        if (arr[i] > largest)
-        {
-            second_largest = largest;
-            largest = arr[i];
-        }
-        else if (arr[i] > second_largest && arr[i] != largest)
-        {
-            second_largest = arr[i];
-        }
-    }
-
-    // Output
-    printf("Second largest number is: %d\n", second_largest);
-
-    return 0;
+	int i,a[5],max,semax=0;
+	for(i=0;i<=4;i++)
+	{
+		printf("Enter the 5 integers to store\n");
+		scanf("%d",&a[i]);
+		
+	}
+	max = a[0];
+	for(i=0;i<=4;i++)
+	{
+		if(a[i]>max)
+		{
+			max = a[i];
+		}
+	
+	}
+	for(i=0;i<=4;i++)
+	{
+		if(max>a[i])
+		{
+			if(a[i]>semax)
+			{
+				semax = a[i];
+			}
+			
+		}
+	}
+	printf("The Largest number is %d ",max);
+	printf("The Second Largest number is  %d",semax);
+	return 0;
 }
