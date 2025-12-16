@@ -1,9 +1,4 @@
-/*             13. Find the second largest number
-            14. Find the second smallest number
-            15. Remove duplicates from an array
-            16. Print unique elements in an array
-            17. Sort array in ascending order (Bubble Sort)
-            18. Sort array in descending order */
+/*            15. Remove duplicates from an array */
 
 #include <stdio.h>
 int main(){
