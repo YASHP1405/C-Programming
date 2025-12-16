@@ -1,5 +1,4 @@
-/*           16. Print unique elements in an array
-         17. Sort array in ascending order (Bubble Sort)              */
+/*       17. Sort array in ascending order (Bubble Sort)              */
 #include<stdio.h>
 int main()
 {
@@ -29,5 +28,5 @@ int main()
 	{
 		printf("%d",a[i]);
 	}
-	return 0;
+	return 0;
 }
