@@ -1,8 +1,4 @@
-/* 21. Delete an element from an array
-22. Rotate array to the left (1 position)
-23. Rotate array to the right (k positions)
-24. Count frequency of each element
-25. Find pair of elements whose sum is equal to a given number */
+/* 21. Delete an element from an array*/
 #include <stdio.h>
 
 int main() {
