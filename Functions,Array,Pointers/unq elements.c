@@ -5,7 +5,6 @@
 int main() {
     int a[10], i, j, count;
 
-    // Input array elements
     for (i = 0; i < 10; i++) {
         printf("Enter element %d: ", i + 1);
         scanf("%d", &a[i]);
@@ -13,7 +12,6 @@ int main() {
 
     printf("\nUnique elements in the array are:\n");
 
-    // Logic to find unique elements
     for (i = 0; i < 10; i++) {
         count = 0;
         for (j = 0; j < 10; j++) {

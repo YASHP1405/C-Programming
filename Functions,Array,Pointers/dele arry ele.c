@@ -2,13 +2,12 @@
 #include <stdio.h>
 
 int main() {
-    int arr[100], n, i, pos;
+    int arr[10] , i, pos;
 
-    printf("Enter number of elements: ");
-    scanf("%d", &n);
 
-    printf("Enter %d elements:\n", n);
-    for (i = 0; i < n; i++) {
+    for (i = 0; i < 10; i++) {
+        
+        printf("Enter %d elements:\n");
         scanf("%d", &arr[i]);
     }
 
