@@ -63,3 +63,76 @@ Programs on Functions, Array.
             23. Rotate array to the right ( k positions )
             24. Count frequency of each element
             25. Find pair of elements whose sum is equal to a given number.
+
+            2D Array
+                🔰 BASIC LEVEL (Must Do)
+
+Read and print a 2×2 matrix.
+
+Read and print a 3×3 matrix.
+
+Find sum of all elements in a matrix.
+
+Find average of elements in a matrix.
+
+Count even and odd elements in a matrix.
+
+📊 MATRIX OPERATIONS
+
+Add two matrices of size 3×2.
+
+Subtract two matrices.
+
+Multiply all elements of a matrix by a number.
+
+Find maximum and minimum element in a matrix.
+
+Search an element in a matrix.
+
+🔁 ROW & COLUMN LOGIC
+
+Find sum of each row.
+
+Find sum of each column.
+
+Find row with maximum sum.
+
+Find column with minimum sum.
+
+Count zero elements in a matrix.
+
+🔄 TRANSFORMATION PROBLEMS
+
+Find transpose of a matrix.
+
+Print upper triangular matrix.
+
+Print lower triangular matrix.
+
+Check if matrix is symmetric.
+
+Convert matrix into diagonal matrix.
+
+🧮 ADVANCED / EXAM FAVOURITE
+
+Matrix multiplication.
+
+Check if matrix is identity matrix.
+
+Find trace of a matrix.
+
+Interchange first and last row.
+
+Interchange first and last column.
+
+💡 LOGIC BUILDING / INTERVIEW
+
+Print matrix in spiral order.
+
+Print boundary elements of matrix.
+
+Count frequency of each element.
+
+Sort each row of a matrix.
+
+Rotate matrix by 90 degrees.
