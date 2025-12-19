@@ -35,3 +35,8 @@ git clone "The file name"
 
 
 
+edit → git add → git commit → git push
+(review happens)
+merge on GitHub
+git checkout main → git pull
+delete branch
