@@ -1,3 +1,5 @@
+/* 3. Write a program to store and display details of 5 employees using structures.*/
+
 #include <stdio.h>
 
 struct Employee {
