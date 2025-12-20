@@ -4,25 +4,21 @@ int main() {
     int a[10][10], transpose[10][10];
     int i, j, r, c;
 
-    printf("Enter number of rows and columns: ");
-    scanf("%d %d", &r, &c);
 
-    // Input matrix
-    printf("Enter matrix elements:\n");
     for (i = 0; i < r; i++) {
         for (j = 0; j < c; j++) {
+            printf("Enter matrix elements:\n");
             scanf("%d", &a[i][j]);
         }
     }
 
-    // Transpose logic
+    
     for (i = 0; i < r; i++) {
         for (j = 0; j < c; j++) {
             transpose[j][i] = a[i][j];
         }
     }
 
-    // Display transpose
     printf("Transpose of the matrix:\n");
     for (i = 0; i < c; i++) {
         for (j = 0; j < r; j++) {
