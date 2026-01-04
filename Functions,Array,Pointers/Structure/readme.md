@@ -119,3 +119,25 @@
         Prints the modified array
 
     
+
+    CLASS
+
+    1. Find the Highest Marks
+Problem:
+Write a function to find the student with the highest marks.
+Concept:
+Loop + structure + function
+
+2. Pass Nested Structure to Function
+Problem:
+Create a nested structure for student DOB.
+Display full details using a function.
+Concept:
+* Nested structure
+* Function with structure
+3. Sort Students by Marks
+Problem:
+Sort student records in descending order of marks using a function.
+Concept:
+* Structure swapping
+* Bubble sort
